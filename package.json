@@ -166,6 +166,16 @@
 					"type": "boolean",
 					"default": false,
 					"description": "Enables extension to post anonymous usage data to help improve the product."
+        },
+				"cline.modelSettings.o3Mini.reasoningEffort": {
+					"type": "string",
+					"enum": [
+						"low",
+						"medium",
+						"high"
+					],
+					"default": "medium",
+					"description": "Controls the reasoning effort when using the o3-mini model. Higher values may result in more thorough but slower responses."
 				}
 			}
 		}
@@ -246,7 +256,7 @@
 		"isbinaryfile": "^5.0.2",
 		"mammoth": "^1.8.0",
 		"monaco-vscode-textmate-theme-converter": "^0.1.7",
-		"openai": "^4.82.0",
+		"openai": "^4.83.0",
 		"os-name": "^6.0.0",
 		"p-wait-for": "^5.0.2",
 		"pdf-parse": "^1.1.1",
