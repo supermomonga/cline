@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.4.0
+
+### Minor Changes
+
+-   1cc1c26: Adding .clineignore guide
+
 ## [3.3.0]
 
 -   Add .clineignore to block Cline from accessing specified file patterns
